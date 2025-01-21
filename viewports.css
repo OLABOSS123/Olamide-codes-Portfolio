@@ -1,0 +1,296 @@
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {} */
+
+/* canvas{
+  height: max-content;
+  width: max-content;
+} */
+
+@media screen and (max-height: 740px) {
+  #Home,#Portfolio,#About,#Contact{
+    padding: .3rem;
+    font-size: 12px;
+  }
+  
+}
+
+@media screen and (max-width: 365px){
+
+  #Home,#Portfolio,#About,#Contact{
+    padding: .4rem;
+    font-size: 6px;
+  }
+
+}
+
+@media screen and (max-width: 375px){
+
+  #Home,#Portfolio,#About,#Contact{
+    padding: .3rem;
+    font-size: 11px;
+  }
+
+}
+
+@media screen and (max-width: 390px){
+  #Home,#Portfolio,#About,#Contact{
+    padding: .5rem;
+    font-size: 12px;
+  }
+}
+
+@media  screen and (min-width: 393px) {
+  #navigation{
+    width: 100%;
+  }
+
+  #Home,#Portfolio,#About,#Contact{
+    padding: .4rem;
+    font-size: 13px;
+  }
+}
+
+@media  screen and (min-width: 412px) {
+
+  #Home,#Portfolio,#About,#Contact{
+    padding: .5rem;
+    font-size: 12px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media screen and (max-width: 600px) {
+    *{
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    
+      .logo_span{
+        margin-top: 13px;
+        font-size: 10px;
+      }
+
+      #icon{
+        display: flex;
+        flex-direction: column;
+      }
+
+
+      .flex_container{
+          flex-direction: column;
+          height: fit-content;
+          top: 4rem;
+      }
+
+      #content_text{
+          text-align: center;  
+          bottom: 5rem;
+          margin-top: 7rem;
+          width:max-content;
+      }
+      
+      .intro{
+          font-size: 2rem;
+      }
+
+      #content_profile{
+          width: 18rem;
+          margin-top: 3rem;
+      }
+
+      #Home,#Portfolio,#About,#Contact{
+        margin-right: auto;
+      }
+
+      #skill_flex{
+        flex-direction: column;
+      }
+
+      .skill_content{
+        width: 100%;
+      }
+
+      .skill_content > img {
+        position: relative;
+        display: block;
+        height: 85%;
+        /* width: fit-content; */
+        margin-top: 1rem;
+        /* border:2px solid black; */
+      }
+}
+
+/* Small devices (landscape phone, 600px and up) */
+@media  screen and (min-width: 600px) {
+
+  .intro{
+    font-size: 1.9rem;
+    text-align: center;
+    justify-items: center;
+  }
+
+  #content_profile{
+    width:20rem;
+    margin-top: 3.5rem;
+  }
+
+  .intro:hover{
+    border-radius:  15px;
+  }
+
+  #content_text{
+    width: fit-content;
+    bottom: 2rem;
+  }
+
+  .text_container{
+    text-align: center;
+  }
+
+  #content_button{
+    padding: 10px;
+  }
+
+  .flex_container{
+    flex-direction: column;
+  }
+
+  #skill_flex{
+    flex-direction: column;
+  }
+
+  .skill_content{
+    /* display: block; */
+    width: 100%;
+  }
+
+  }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+  .flex_container{
+    /* margin-top: 4rem; */
+    flex-direction: row;
+    /* border: 2px solid red; */
+  }
+
+  #content_text{
+    font-size: 2.4rem;
+    position: relative;
+    border-radius: 1px solid white;
+    margin-top: 2.4rem;
+  }
+
+  .text_container{
+    margin-top: 4rem;
+    text-align: left;
+  }
+
+  #content_profile{
+    width:25rem;
+  }
+
+  .intro{
+    font-size: 80%;
+  }
+
+  #skill_flex{
+  flex-direction: row;
+  }
+
+  .skill_content{
+    width: 30%;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+   .intro{
+    font-size: 3.2rem;
+  }
+
+  #content_profile{
+    width: 25rem;
+  }
+
+  #content_text{
+    /* top: 10px; */
+  }
+
+
+
+  #Home,#Portfolio,#About,#Contact{
+    padding: 11px;
+    font-size: 1.2rem;
+  }
+
+  #skill_flex{
+    flex-direction: row;
+  }
+
+  .skill_content{
+    width: 30%;
+  }
+
+}
+
+@media screen and (min-width: 1000px) {
+
+  #content_profile{
+    width: 30rem;
+  }
+
+
+}
+
+@media screen and (min-width: 1100px) {
+
+  
+
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+  #nav{
+    position: relative;
+    align-self: center;
+    /* border: 1px solid white; */
+    display: flexbox;
+    justify-content: space-between;
+  }
+
+  #nav_image{
+    height: 3rem;
+  }
+
+  .logo_span{
+    align-items: center;
+    bottom: 15px;
+  }
+
+  #content_profile{
+    width:35rem;
+  }
+
+  .intro{
+    font: 25rem;
+  }
+
+  #Home,#Portfolio,#About,#Contact{
+    margin-right: 3rem;
+  }
+
+  #nav{
+    margin-right: 4rem;
+  }
+
+  #icon{
+    margin-left: 3rem;
+  }
+
+}

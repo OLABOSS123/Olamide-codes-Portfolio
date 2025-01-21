@@ -1,0 +1,162 @@
+# ============================
+# General
+# ============================
+*.tmp
+*.temp
+*.bak
+*.old
+*.swp
+*.swo
+*.save
+*.log
+*.pid
+*.seed
+*.gz
+
+# ============================
+# System Files
+# ============================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+~*
+.directory
+
+# ============================
+# Programming Language Files
+# ============================
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+.venv/
+
+# JavaScript / Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.bundle.js
+*.min.js
+.next/
+.cache/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+/build/
+target/
+out/
+
+# C / C++
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.out
+*.dSYM/
+*.stackdump
+
+# C# / .NET
+*.dll
+*.exe
+*.pdb
+*.user
+*.vs/
+.vscode/
+bin/
+obj/
+
+# Ruby
+*.gem
+/vendor/bundle/
+.log/
+
+# PHP
+/vendor/
+composer.lock
+
+# Go
+*.exe
+*.test
+*.mod
+*.sum
+
+# Rust
+/target/
+
+# ============================
+# IDE / Editor Specific
+# ============================
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
+/nbproject/private/
+
+# ============================
+# Frameworks and Tools
+# ============================
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Android
+.gradle/
+build/
+local.properties
+
+# iOS
+Pods/
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj
+
+# ============================
+# Sensitive Files
+# ============================
+.env
+*.key
+*.pem
+*.crt
+*.cert
+*.pfx
+secrets.json
+credentials.json
+keys.json

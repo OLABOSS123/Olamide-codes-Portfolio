@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    position: static;
+}
+body{
+    background-image: url("images/shannon-tremaine-NRz7SfpnqUM-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background:cover;
+    background-attachment: fixed;
+}
+#linear_gradient{
+    background:linear-gradient(rgba(255, 68, 0, 0.056),orangered);
+    background-size: cover;
+}
+span,.text_headers{
+    color:white;
+    /* font-family: Poppins; */
+    font-family: Kaushan Script;
+}
+#navigation{
+    display:block;
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
+    left: 0;
+    top:0;
+    height:6%;
+}
+a{
+  color:white;
+  font-family:Poppins ;
+}
+#Home,#Portfolio,#About,#Contact{
+    top:-2.5rem;
+    position:relative;
+}
+  #Home,#Portfolio,#About,#Contact{
+    margin-left: 4.2rem;
+}
+#nav{
+    align-content: right;
+    margin-left: 64rem;
+    padding-top: 0.8rem;
+}
+#nav_image{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    height: 2rem;
+}
+#Home,#Portfolio,#About,#Contact,#content_button_text{
+    text-decoration: none;
+}
+#Home,#Portfolio,#About,#Contact{
+  animation: fadeInLeft ease 2s;
+}
+@keyframes fadeInLeft {
+0% {
+    opacity:-1;
+    /* font-size: 6.66px; */
+    position: relative;
+    left: -30rem;
+    bottom: -9rem;
+}
+20% {
+    opacity:0.2;
+    /* font-size: 13.32px; */
+    position: relative;
+    bottom: -9rem;
+}
+40% {
+    opacity:0.4;
+    /* font-size: 19.98px; */
+    position: relative;
+    bottom: -9rem;
+}
+60% {
+    opacity:0.6;
+    /* font-size: 26.64px; */
+    position: relative;
+    bottom: -9rem;
+}
+80% {
+    opacity:0.8;
+    /* font-size: 33.3px; */
+    position: relative;
+  
+    bottom: -9rem;
+}
+100% {
+    opacity:1;
+    /* font-size: 40px; */
+    position: relative;
+    left: 0rem;
+    bottom: -9rem;
+  }
+}
+#Home:hover,#Portfolio:hover,#About:hover,#Contact:hover{
+    color:dodgerblue;
+}
+#content{
+    /* border:3px solid white; */
+    display:block;
+    /* background-color:rgba(0, 0, 0, 0.666); */
+    color:black;
+    position: absolute;
+    height: 300vh;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+#content_span{
+    position: relative;
+    font-family: poppins;
+    font-size:50px;
+    top: 100px;
+    left: 40rem;
+}
+.text_headers{
+    font-family: Poppins;
+    margin-left: 9rem;
+    color:dodgerblue;
+}
+/* display: block;
+    background-color:inherit;
+    position: absolute;
+    height: 25vh;
+    width: 400px;
+    padding: 20px 0;
+    left: 100px;
+    top: 65px;
+    border-radius: 50px;    
+    background-color:white; */
+#child_footer_container1{
+    left: 40rem;
+    display: block;
+    position: relative;
+    height: 25vh;
+    width: 400px;
+    padding: 20px 0;
+    left: 100px;
+    top: 300px;
+    border-radius: 50px;    
+    background-color:white;
+}
+#child_footer_container2{
+    left: 40rem;
+    display: block;
+    position: relative;
+    height: 25vh;
+    width: 400px;
+    padding: 20px 0;
+    left: 100px;
+    top: 65rem;
+    border-radius: 50px;    
+    background-color:white;
+}
+#child_footer_container3{
+    left: 40rem;
+    display: block;
+    position: relative;
+    height: 25vh;
+    width: 400px;
+    padding: 20px 0;
+    left: 100px;
+    top: 110rem;
+    border-radius: 50px;    
+    background-color:white;
+}
+.child_footer_container_animation{
+  animation: fadeIn_footer ease-in 2.5s;
+}
+@keyframes fadeIn_footer {
+  0% {
+    opacity:0;
+  }
+  20% {
+    opacity:0;
+  }
+  40% {
+    opacity:0;
+  }
+  60% {
+    opacity:0;
+  }
+  80% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
