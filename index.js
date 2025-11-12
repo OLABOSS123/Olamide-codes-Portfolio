@@ -3,7 +3,7 @@
 var screenWidth = window.innerWidth;
 var screenHeight = window.innerHeight;
 
-alert("Screen Size: " + screenWidth + " x " + screenHeight);
+// alert("Screen Size: " + screenWidth + " x " + screenHeight);
 
     // var menu = document.getElementById("checkbox");
     // var navigation = document.getElementById("nav");
