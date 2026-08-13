@@ -1,162 +1,100 @@
-# ============================
-# General
-# ============================
-*.tmp
-*.temp
-*.bak
-*.old
-*.swp
-*.swo
-*.save
-*.log
-*.pid
-*.seed
-*.gz
+# ==========================================================
+# OS / SYSTEM FILES
+# ==========================================================
 
-# ============================
-# System Files
-# ============================
-# macOS
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Windows
 Thumbs.db
-desktop.ini
-$RECYCLE.BIN/
+Desktop.ini
 
-# Linux
-~*
-.directory
 
-# ============================
-# Programming Language Files
-# ============================
+# ==========================================================
+# VS CODE
+# ==========================================================
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.egg
-*.egg-info/
-dist/
-build/
-env/
-venv/
-.venv/
+.vscode/
 
-# JavaScript / Node.js
+
+# ==========================================================
+# NODE / NPM
+# ==========================================================
+
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-*.bundle.js
-*.min.js
-.next/
+pnpm-debug.log*
+
+
+# ==========================================================
+# ENVIRONMENT VARIABLES
+# ==========================================================
+
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+
+# ==========================================================
+# BUILD / DIST FILES
+# ==========================================================
+
+dist/
+build/
+out/
 .cache/
 
-# Java
-*.class
-*.jar
-*.war
-*.ear
-/build/
-target/
-out/
 
-# C / C++
-*.o
-*.obj
-*.so
-*.exe
-*.dll
-*.out
-*.dSYM/
-*.stackdump
+# ==========================================================
+# LOGS
+# ==========================================================
 
-# C# / .NET
-*.dll
-*.exe
-*.pdb
-*.user
-*.vs/
-.vscode/
-bin/
-obj/
+*.log
+logs/
 
-# Ruby
-*.gem
-/vendor/bundle/
-.log/
 
-# PHP
-/vendor/
-composer.lock
+# ==========================================================
+# TEMPORARY FILES
+# ==========================================================
 
-# Go
-*.exe
-*.test
-*.mod
-*.sum
+*.tmp
+*.temp
+*.swp
+*.swo
 
-# Rust
-/target/
 
-# ============================
-# IDE / Editor Specific
-# ============================
+# ==========================================================
+# LOCAL CONFIGURATION
+# ==========================================================
 
-# VS Code
-.vscode/
+config.local.*
+settings.local.*
 
-# JetBrains IDEs
-.idea/
-*.iml
 
-# Sublime Text
-*.sublime-workspace
+# ==========================================================
+# GENERATED / TEMPORARY CV FILES
+# ==========================================================
 
-# Eclipse
-.classpath
-.project
-.settings/
+*.pdf
+!assets/cv/*.pdf
+cv-output/
+generated-cv/
 
-# NetBeans
-/nbproject/private/
 
-# ============================
-# Frameworks and Tools
-# ============================
+# ==========================================================
+# IMAGE / DESIGN TEMP FILES
+# ==========================================================
 
-# Flutter
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-build/
+*.psd
+*.ai
+*.fig~
+*.sketch~
 
-# Android
-.gradle/
-build/
-local.properties
 
-# iOS
-Pods/
-*.xcworkspace
-*.xcuserstate
-*.xcodeproj
+# ==========================================================
+# BACKUPS
+# ==========================================================
 
-# ============================
-# Sensitive Files
-# ============================
-.env
-*.key
-*.pem
-*.crt
-*.cert
-*.pfx
-secrets.json
-credentials.json
-keys.json
+*.bak
+*.backup
