@@ -1,0 +1,782 @@
+@import url("style.css");
+
+/* ==========================================================
+   RESPONSIVE DESIGN
+========================================================== */
+
+/* ===========================
+   LARGE DESKTOPS (1400px+)
+=========================== */
+
+@media (min-width:1400px){
+
+    html{
+
+        font-size:18px;
+
+    }
+
+    main{
+
+        max-width:1600px;
+
+        margin-left:270px;
+
+        padding-top: 50px;
+
+    }
+
+    .container{
+
+        max-width:1400px;
+
+        margin:auto;
+
+    }
+
+    .hero{
+        padding-top: 0px;
+    }
+
+    .profile-card{
+        width:30rem;
+    }
+
+    .profile-card img{
+           height:30rem;
+           width:30rem;
+    }
+
+   div.availibility-badge{
+    display:none;
+   }
+}
+
+/* ===========================
+   DESKTOPS
+=========================== */
+
+@media (max-width:1200px){
+
+    html{
+
+        font-size:15px;
+
+    }
+
+    main{
+
+        margin-left:250px;
+
+        padding:60px;
+
+    }
+
+    .skills-grid{
+        gap:50px;
+    }
+
+    .hero{
+
+        gap:40px;
+
+    }
+
+    .hero h2{
+
+        font-size: 1.8rem;
+        text-align: center;
+
+    }
+
+}
+
+/* ===========================
+   TABLETS
+=========================== */
+
+@media (max-width:992px){
+
+    main{
+
+        margin-left:0;
+        margin-top: 2rem;
+
+        padding:35px;
+
+    }
+
+    .sidebar{
+
+        width:100%;
+
+        height:80px;
+
+        padding:0 30px;
+
+        flex-direction:row;
+
+        align-items:center;
+
+        justify-content:space-between;
+
+    }
+
+    .sidebar nav{
+
+        flex-direction:row;
+
+        gap:10px;
+
+    }
+
+    .sidebar-footer{
+
+        display:none;
+
+    }
+
+    .profile-card img{
+        height:28rem;
+    }
+
+
+    .hero{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .hero-left{
+
+        align-items:center;
+
+    }
+
+    .hero-right{
+
+        margin-top:40px;
+
+    }
+
+     .react{
+
+        top:-30px;
+
+        left:150px;
+
+    }
+
+    .node{
+
+        top:80px;
+
+        right:180px;
+
+    }
+
+    .mongo{
+
+        bottom:10px;
+
+        left:120px;
+
+    }
+
+    .docker{
+
+        bottom:50px;
+
+        right:230px;
+
+    }
+
+    .buttons{
+
+        justify-content:center;
+
+        flex-wrap:wrap;
+
+    }
+
+    .socials{
+
+        justify-content:center;
+
+    }
+
+    .skills-grid{
+
+        grid-template-columns:repeat(3,110px);
+
+    }
+}
+
+
+/* ===========================
+   MOBILE LARGE
+=========================== */
+
+@media (max-width:768px){
+
+    html{
+
+        font-size:14px;
+
+    }
+
+    section{
+
+        padding:80px 0;
+
+    }
+
+    main{
+
+        padding:25px;
+        margin-top: 2rem;
+
+    }
+
+
+    .hero h1{
+
+        font-size:3rem;
+
+    }
+
+    .hero h2{
+
+        font-size:1.5rem;
+
+    }
+
+    .profile-card{
+
+        width:100%;
+
+        max-width:360px;
+
+    }
+
+    .project-grid,
+    .service-grid,
+    .skills-container{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .footer-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .skills-grid{
+
+        grid-template-columns:repeat(2,110px);
+
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    
+    .sidebar nav a{
+        padding: 7px 8px;
+        font-size: 10px;
+    }
+
+    .sidebar nav a i{
+        font-size: 15px;
+    }
+
+    .logo{
+        margin:7px  20px 0 0;
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+
+    .logo img{
+        height: 1.5rem;
+    }
+
+    #brand-name{
+        text-align: center;
+    }
+
+}
+
+
+
+@media (max-width:875px) {
+
+    #home{
+        margin-top: 30px;
+        padding-top:20px;
+    }
+
+    .sidebar{
+
+        /* position: relative; */
+        display:block;
+
+        height:auto;
+
+        padding:20px;
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        border-radius: 0 0 1rem 1rem;
+
+    }
+
+    .sidebar nav{
+
+        width:100%;
+
+        flex-direction:row;
+
+        margin-top:20px;
+
+    }
+
+    .sidebar nav a{
+
+        width:100%;
+
+    }
+
+    .logo img{
+        height: 1.5rem;
+    }
+
+    main{
+
+        padding:10px;
+        margin-top: 4rem;
+
+    }
+
+    .hero{
+
+        min-height:auto;
+        margin-top: 50px;
+        gap:30px;
+
+    }
+
+    .hero h1{
+
+        font-size:2.3rem;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+    }
+
+    .buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+    .buttons a,
+    .buttons button{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .socials{
+
+        flex-wrap:wrap;
+
+    }
+
+
+    .react{
+
+    top:-10%;
+
+    left:20%;
+
+}
+
+.node{
+
+    top:20%;
+
+    right:20%;
+
+}
+
+.mongo{
+
+    bottom:8%;
+
+    left:17%;
+
+}
+
+.docker{
+
+    bottom:16%;
+
+    right:30%;
+
+}
+
+    .contact-form{
+
+        padding:25px;
+
+    }
+
+    .project-image{
+
+        height:180px;
+
+    }
+    
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (min-width:0px) and (max-width:576px){
+
+    #home{
+        margin-top: 10px;
+    }
+
+    .sidebar{
+
+        height:auto;
+
+        padding:20px;
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        border-radius: 0 0 1rem 1rem;
+
+    }
+
+    div.logo{
+        margin:7px  20px 0 0;
+    }
+
+    .logo img{
+        height: 1rem;
+    }
+
+    .sidebar nav{
+
+        width:100%;
+
+        flex-direction:row;
+
+        margin-top:20px;
+
+    }
+
+     .sidebar nav a {
+        padding: 7px 8px;
+        font-size: 6px;
+        font-weight: 500;
+    }
+
+    .sidebar nav a i {
+        font-size: 7px;
+    }
+
+    main{
+
+        padding:130px;
+
+    }
+
+    .hero{
+
+        min-height:auto;
+
+        gap:30px;
+
+    }
+
+    .hero h1{
+
+        font-size:2.3rem;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+    }
+
+    .buttons{
+
+        flex-direction:column;
+
+        width:100%;
+
+    }
+
+    .buttons a,
+    .buttons button{
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .socials{
+
+        flex-wrap:wrap;
+
+    }
+
+     
+    .react{
+
+        top:-10%;
+
+        left:20%;
+
+    }
+
+    .node{
+
+        top:20%;
+
+        right:20%;
+
+    }
+
+    .mongo{
+
+        bottom:8%;
+
+        left:17%;
+
+    }
+
+    .docker{
+
+        bottom:16%;
+
+        right:30%;
+
+    }
+
+    .contact-form{
+
+        padding:25px;
+
+    }
+
+    .project-image{
+
+        height:180px;
+
+    }
+
+}
+
+@media (min-width:400px)  and (max-width:518px){
+        .status-dot{
+        top: 10px;
+
+    }
+
+}
+
+/* ===========================
+   EXTRA SMALL DEVICES
+=========================== */
+
+@media (max-width:400px){
+
+    html{
+
+        font-size:13px;
+
+    }
+
+    .profile-card img{
+        width: 20rem;
+    }
+
+    .hero h1{
+
+        font-size:2rem;
+
+    }
+
+    .section-title{
+
+        font-size:2rem;
+
+    }
+
+    .stat-card h2{
+
+        font-size:2.2rem;
+
+    }
+
+    .service-icon{
+
+        width:60px;
+
+        height:60px;
+
+        font-size:24px;
+
+    }
+
+    div.logo{
+        margin:7px  20px 0 0;
+    }
+
+    .logo img{
+        height: 1.5rem;
+    }
+
+    .sidebar{
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .sidebar nav a{
+
+        font-size:7px;
+        padding:5px 5px;
+
+    }
+
+    .sidebar nav a i{
+
+        font-size:7px;
+
+    }
+
+     .skills-grid{
+
+        grid-template-columns:repeat(2,90px);
+
+        gap:14px;
+
+    }
+
+    .skill-card{
+
+        width:90px;
+
+        height:90px;
+
+    }
+
+    .skill-card img{
+
+        width:34px;
+
+        height:34px;
+
+    }
+
+    .skill-card span{
+
+        font-size:.72rem;
+
+    }
+
+}
+
+/* ===========================
+   LANDSCAPE PHONES
+=========================== */
+
+@media (max-width:650px){
+
+    .hero{
+
+        min-height:auto;
+
+        padding-top:100px;
+
+        padding-bottom:100px;
+
+    }
+
+}
+
+/* ===========================
+   REDUCED MOTION
+=========================== */
+
+@media (prefers-reduced-motion: reduce){
+
+    *{
+
+        animation:none !important;
+
+        transition:none !important;
+
+        scroll-behavior:auto !important;
+
+    }
+
+}
+
+/* ===========================
+   PRINT
+=========================== */
+
+@media print{
+
+    .sidebar,
+    .buttons,
+    .socials,
+    .back-to-top{
+
+        display:none !important;
+
+    }
+
+    main{
+
+        margin:0;
+
+        padding:0;
+
+    }
+
+    body{
+
+        background:#fff;
+
+        color:#000;
+
+    }
+
+}
