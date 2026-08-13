@@ -1,0 +1,178 @@
+/* ===========================================
+   MASTER STYLESHEET
+   Olamide George Portfolio
+=========================================== */
+
+@import url("variable.css");
+@import url("reset.css");
+@import url("sidebar.css");
+@import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/skills.css");
+@import url("sections/projects.css");
+@import url("sections/experience.css");
+@import url("sections/services.css");
+@import url("contact.css");
+@import url("sections/footer.css");
+@import url("animation.css");
+@import url("responsive.css");
+@import url("projects.css");
+
+main{
+   color:white;
+   padding:50px 30px 50px 30px;
+}
+
+/* ==========================================================
+   AVAILABILITY BADGE
+========================================================== */
+
+.availability-badge{
+
+    display:flex;
+
+    width:fit-content;
+
+    margin:20px auto 20px;
+
+    gap:12px;
+
+    padding:12px 22px;
+
+    border-radius:50px;
+
+    background:rgba(22,163,74,.12);
+
+    border:3px solid rgba(34,197,94,.30);
+
+    backdrop-filter:blur(15px);
+
+    color:#7dffb2;
+
+    font-size:.95rem;
+
+    font-weight:600;
+
+    letter-spacing:.3px;
+
+    box-shadow:
+        0 8px 30px rgba(34,197,94,.15);
+
+    transition:all .35s ease;
+
+}
+
+@media (max-width:877px){
+
+    .hero{
+
+        min-height:auto;
+
+        padding-top:100px;
+
+        padding-bottom:100px;
+
+    }
+
+}
+
+.availability-badge:hover{
+
+    transform:translateY(-4px);
+
+    border-color:#22c55e;
+
+    box-shadow:
+        0 15px 40px rgba(34,197,94,.30);
+
+}
+
+/* ==========================================================
+   STATUS DOT
+========================================================== */
+
+.status-dot{
+
+    position:relative;
+    
+    margin-top:1%;
+
+    width:12px;
+
+    height:12px;
+
+    border-radius:50%;
+
+    background:#22c55e;
+
+    flex-shrink:0;
+
+}
+
+.status-dot::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:-6px;
+
+    border-radius:50%;
+
+    border:2px solid rgba(34,197,94,.45);
+
+    animation:statusPulse 2s infinite;
+
+}
+
+/* ==========================================================
+   STATUS PULSE
+========================================================== */
+
+@keyframes statusPulse{
+
+    0%{
+
+        transform:scale(.6);
+
+        opacity:1;
+
+    }
+
+    100%{
+
+        transform:scale(2);
+
+        opacity:0;
+
+    }
+
+}
+
+.profile-card img{
+    border-radius: 20px;
+    margin:0 auto;
+
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+
+.hero-left{
+    border-radius: 20px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+#typing {
+
+    color: var(--accent);
+
+    display: inline-block;
+
+    min-height: 1.2em;
+
+}
